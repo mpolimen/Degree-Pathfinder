@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    color: #A32;
+}
+
+a{
+    color: #9A989A;
+}
+
+summary{
+    color: #9A989A;
+}
+
+details>p{
+    color: #9A989A;
+}
