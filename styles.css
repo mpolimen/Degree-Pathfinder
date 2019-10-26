@@ -1,10 +1,16 @@
 *{
     background-color: black;
     color: #A32;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
+}
+
+p{
+    color: #9A989A;
 }
 
 a{
-    color: #9A989A;
+    color: #A32638;
 }
 
 summary{
