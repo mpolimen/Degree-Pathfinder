@@ -1,8 +1,37 @@
 *{
-    background-color: black;
+    box-sizing: border-box;
+    background-color: transparent;
     color: #A32;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18pt;
+}
+
+html{
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: black;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to right, #eb5757, #000000);
+    background: linear-gradient( to right, #eb5757, #000000);
+    background: -webkit-linear-gradient( to right, #200122, #6f0000);
+    background: linear-gradient( to right, #200122, #6f0000);
+}
+
+h1{
+    font-size: 36pt;
+    text-align: center;
+    position: relative;
+    color: #9A989A;
+}
+
+nav{
+    text-align: center;
+}
+
+#logo{
+    float: left;
+    width: 10%;
 }
 
 p{
