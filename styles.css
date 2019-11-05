@@ -18,15 +18,16 @@ html{
     background: linear-gradient( to right, #200122, #6f0000);
 }
 
-h1{
-    font-size: 36pt;
+header h1{
+    font-size: 2rem;
     text-align: center;
     position: relative;
     color: #9A989A;
 }
 
-nav{
+header nav{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 #logo{
@@ -48,4 +49,27 @@ summary{
 
 details>p{
     color: #9A989A;
+}
+
+@media only screen and (min-device-width: 999px){
+
+}
+
+@media only screen and (min-device-width: 499px) and (max-device-width: 998px){
+
+}
+
+@media only screen and (max-device-width: 498px){
+    [incr]{
+        zoom: 2;
+    }
+
+    figure img{
+        width: 100%;
+        display: block;
+    }
+
+    [zooming]{
+        zoom: .25;
+    }
 }
