@@ -12,27 +12,29 @@ html{
     background-size: cover;
     background: black;
     background-repeat:no-repeat;
-    background: -webkit-linear-gradient( to right, #eb5757, #000000);
-    background: linear-gradient( to right, #eb5757, #000000);
-    background: -webkit-linear-gradient( to right, #200122, #6f0000);
-    background: linear-gradient( to right, #200122, #6f0000);
+    background: -webkit-linear-gradient( to right, #000000, #d93434);
+    background: linear-gradient( to right, #000000, #d93434);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 35%;
 }
 
 header h1{
     font-size: 2rem;
-    text-align: center;
-    position: relative;
     color: #9A989A;
 }
 
-header nav{
+nav{
     text-align: center;
     font-size: 1.5rem;
 }
 
 #logo{
-    float: left;
-    width: 10%;
+    width: 150px;
 }
 
 p{
@@ -56,7 +58,9 @@ details>p{
 }
 
 @media only screen and (min-device-width: 499px) and (max-device-width: 998px){
-
+    header{
+        padding-right: 0%;
+    }
 }
 
 @media only screen and (max-device-width: 498px){
