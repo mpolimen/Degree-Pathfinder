@@ -53,6 +53,11 @@ details>p{
     color: #9A989A;
 }
 
+button{
+    background-color: #9A989A;
+    border-color: black;
+}
+
 @media only screen and (min-device-width: 999px){
 
 }
