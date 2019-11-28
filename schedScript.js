@@ -4,7 +4,30 @@ window.onload = function(){
     currTerm = 1;
     classes = [];
     classes.push({name: "CS-115", credits: 4});
+    classes.push({name: "CS-135", credits: 4});
     classes.push({name: "CS-146", credits: 3});
+    classes.push({name: "CS-284", credits: 4});
+    classes.push({name: "CS-306", credits: 4});
+    classes.push({name: "CS-334", credits: 3});
+    classes.push({name: "CS-347", credits: 3});
+    classes.push({name: "CS-383", credits: 3});
+    classes.push({name: "CS-385", credits: 4});
+    classes.push({name: "CS-392", credits: 3});
+    classes.push({name: "CS-423", credits: 3});
+    classes.push({name: "CS-424", credits: 3});
+    classes.push({name: "CS-442", credits: 3});
+    classes.push({name: "CS-485", credits: 1});
+    classes.push({name: "CS-492", credits: 3});
+    classes.push({name: "CS-496", credits: 3});
+    classes.push({name: "CS-511", credits: 3});
+
+    classes.push({name: "MA-121", credits: 2});
+    classes.push({name: "MA-122", credits: 2});
+    classes.push({name: "MA-123", credits: 2});
+    classes.push({name: "MA-124", credits: 2});
+    classes.push({name: "MA-222", credits: 3});
+    classes.push({name: "MA-331", credits: 3});
+    classes.push({name: "BT-353", credits: 3});
 
     document.getElementById('1').onclick = function(){termClick(1);};
     document.getElementById('2').onclick = function(){termClick(2);};
