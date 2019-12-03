@@ -37,12 +37,16 @@ nav{
     width: 150px;
 }
 
+span{
+    color:rgb(187, 90, 10);
+}
+
 p{
     color: #9A989A;
 }
 
 a{
-    color: #A32638;
+    color: #9A989A;
 }
 
 summary{
